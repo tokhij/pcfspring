@@ -1,9 +1,9 @@
 ---
 applications:
-  - name: rd-pcfspring
+  - name: tokhij
     memory: 1G
     instances: 1
     buildpack: java_buildpack
     path: target/pcfspring-0.0.1-SNAPSHOT.jar
     services:
-      - rd-pcfspring-db
+      tokhijdatabase
